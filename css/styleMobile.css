@@ -1,0 +1,79 @@
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    :root {
+        --primary-color: rgba(212, 212, 212, 0.979);
+        --primary-color-darker: rgb(131, 131, 131);
+    }
+    #banner {
+        background: url("../img/civic-home-mobile.webp") no-repeat;
+        margin-top: 140px;
+    }
+    .field-form {
+        width: 850px;
+        margin: 620px;
+        margin-left: 70px;
+        background: rgb(185, 185, 185);
+        padding: 20px;
+        z-index: 1;
+        position: absolute;
+    }
+    header #logotipo {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 260px;
+    }
+    #central-info {
+        position: absolute;
+        margin: 210px 0 0 180px;
+        color: rgb(131, 131, 131);
+        font-size: 2.2rem;
+    }
+    header .header-gray li span {
+        display: none;
+    }
+    header .header-gray {
+        background-color: rgba(212, 212, 212, 0.979);
+        height: 100px;
+    }
+    header .header-gray i {
+        font-size: 8rem;
+        display: block;
+    }
+    header .header-gray #map-icon {
+        margin-left: -280px;
+    }
+    #info .thumbnails {
+        display: none;
+    }
+    #info .cars-thumbnails {
+        margin-left: 70px;
+    }
+    #info .cars-thumbnails #car1, #car2 {
+        display: none;
+    }
+    #info .car-box {
+        padding: 15px;
+        width: 590px;
+        text-align: center;
+    }
+    #banner-middle {
+        margin-top: 520px;
+    }
+    footer .buttons li {
+        width: 100%;
+    }
+    
+    footer .buttons button {
+        width: 100%;
+        border-radius: 0px;
+        margin-left: -70px;
+    }
+    .buttons #btn-map {
+        margin-left: -70px;
+    }
+    footer .row-cinza-escuro {
+        height: 350px;
+    }
+    footer .row-cinza-claro {
+        display: none;
+    }
+}

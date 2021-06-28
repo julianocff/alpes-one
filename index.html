@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Alpes One</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleMobile.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<img id="logotipo" src="img/logo-honda.png" alt="Logotipo">
+		</div>
+
+		<div class="header-gray">
+			<div class="container">
+				<ul class="pull-left">
+					<li><i class="fa fa-home fa-lg"></i><span>Ir para o Portal Banzai</span></li>
+				</ul>
+				<ul class="pull-right">
+					<li><i class="fa fa-map-marker fa-lg" id="map-icon"></i><span>Encontre uma concessionária</span></li>
+					<li><i class="fa fa-envelope"></i><span>Fale conosco</span></p>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<nav id="central-info" class="pull-right">
+					<ul>
+						<li><i>CENTRAL DE ATENDIMENTO</i></li></br>
+						<li id="red-li"><i><b>(31) 3123-1234</b></i></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+	</header>
+
+	<section>
+
+		<div class="field-form">
+			<div class="header-form">
+				<div class="icon-form">
+					<i class="fa fa-phone fa-4x"></i>
+				</div>
+				<div class="text">Solicitar um <span></br>CONTATO</span></div>
+			</div>
+			<form action="/" method="POST" class="form">
+				<label>Nome</label>
+				<input type="text" class="nome valid" placeholder="Nome">
+				<label>E-mail</label>
+				<input type="text" class="valid" placeholder="E-mail">
+				<label>Telefone</label>
+				<input type="text" class="valid" placeholder="Telefone">
+				<label>Horário</label>
+				<select name="" class="valid">
+					<option value="">Escolha o horário</option>
+					<option value="">09:00</option>
+					<option value="">11:00</option>
+					<option value="">13:00</option>
+					<option value="">15:00</option>
+					<option value="">17:00</option>
+				</select>
+				<label>Unidade</label>
+				<select name="" class="valid">
+					<option value="">Escolha a unidade</option>
+					<option value="">Kaizen RS Av Ceará</option>
+					<option value="">Kaizen RS Zona Sul</option>
+				</select>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+
+		<div id="banner"></div>
+
+		<div id="info" class="container">
+			<div class="row thumbnails">
+				<div class="col-md-3">
+					<img src="img/civic-cambio.jpg">
+					<h3>Câmbio CVT com Paddle Shift </h3>
+					<p>
+						O câmbio com transmição CVT de 7 velocidades com Paddle Shift(aletas)
+						proporciona conforto ao trocar de marchas.
+					</p>
+
+				</div>
+				<div class="col-md-3">
+					<img src="img/civic-controls.jpg">
+					<h3>Vidros elétricos com subida</h3>
+					<p>
+						odas as portas possuem vidros elétricos com função 'um toque' e sistema de segurança
+						antiesmagamento
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/civic-internal-panel.jpg">
+					<h3>Direção com Assitência</h3>
+					<p>
+						Sistema de estabilidade que reforça automaticamento o retorno da direção,
+						auxiliando o motorista em situações onde o carro está ameaçado de instabilidade.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="banner-middle">
+			<div class="inner-text">
+				PREPARE-SE PARA ALGO REALMENTE NOVO </br> O novo civic geração 10 vem completo de série. Conheça a
+				versão perfeita para você.
+			</div>
+		</div>
+
+		<div id="info" class="container">
+			<div class="row cars-thumbnails">
+				<div class="col-md-3">
+					<div class="car-box">
+						<img src="img/accord.jpg">
+						<h1>Accord</h1>
+						<p>
+							Novo Honda Accord: a combinação perfeita de três atributos exigidos pelo consumidor:
+							elegância, luxo e alto desempenho.
+						</p>
+						<button class="btn-more">CONHEÇA MAIS</button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="car-box" id="car1">
+						<img src="img/city.jpg">
+						<h1>CITY</h1>
+						<p>
+							O City está muito mais moderno e esportivo. Com design único e mais tecnológico que
+							nunca,
+							ele vai conquistar todos os olhares.
+						</p>
+						<button class="btn-more">CONHEÇA MAIS</button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="car-box" id="car2">
+						<img src="img/fit.jpg">
+						<h1>FIT</h1>
+						<p>
+							Com seu disign inconfudível, o novo Honda Fit tras novodades que vão surpreender a todos
+							e
+							atrair ainda mais fãs.
+						</p>
+						<button class="btn-more">CONHEÇA MAIS</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+
+		<div class="row row-cinza-escuro">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="row row-cols justify-content-center ">
+							<div class="col-md-12 find-us">
+								<ul class="buttons">
+									<li>
+										<button id="btn-map">
+											<p class="text-find-map-small">ENCONTRE UMA</p>
+											<p class="text-find-map-large"></i>CONCESSEIONÁRIA</p>
+										</button>
+									</li>
+									<li>
+										<button>
+											<p class="text-find-phone-small">CENTRAL DE ATENDIMENTO</p>
+											<p class="text-find-phone-large">(31) 3123-1234</p>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row row-cols">
+							<div class="col-md-12 col-get-in-touch">
+								<ul class="list-socials">
+									<H3><i>SIGA A BANZAI NAS REDES SOCIAIS</i></H3>
+									<li>
+										<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li>
+										<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+									</li>
+									<li>
+										<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row row-cinza-claro">
+
+			<div class="container">
+
+				<p class="pull-left">Copyright © Grupo Carbel. All rights reserved.</p>
+				<p class="pull-right">Created by <a href="https://alpes.one/" target="_blank">Alpes One</a></p>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./lib/js/main.js"></script>
+
+</body>
+
+</html>
